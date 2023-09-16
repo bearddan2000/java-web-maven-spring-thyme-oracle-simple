@@ -1,0 +1,14 @@
+spring:
+  thymeleaf:
+    cache: false
+    mode: HTML
+    
+  jpa:
+    hibernate:
+      ddl-auto: create
+
+  datasource:
+    url: jdbc:oracle:thin:@//db:1521/FREEPDB1
+    username: maria
+    password: pass
+  
